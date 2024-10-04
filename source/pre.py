@@ -90,8 +90,14 @@ def evaluate_pipeline(model, X_test_raw, y_test, preprocessing_fn):
     metrics['average_cpu_usage'] = np.mean(cpu_usage)  # In percentage
 
     # Compute accuracy and F1 score
-    if y_pred.ndim > 1 and y_pred.shape[1] > 1:
-        y_pred = np.argmax(y_pred, axis=1)
+    if len(y_pred.shape) != 1:
+        # from keras.utils import to_categorical
+        # y_test = to_categorical(y_test, num_classes=5)
+        y_pred = (y_pred > 0.5).astype(int)
+
+    print(y_test.shape)
+    print(y_pred.shape)
+    
     metrics['accuracy'] = accuracy_score(y_test, y_pred)
     metrics['f1_score'] = f1_score(y_test, y_pred, average='weighted')
 
