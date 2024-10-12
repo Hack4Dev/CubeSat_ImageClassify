@@ -28,22 +28,28 @@ Develop a machine learning model that accurately classifies data captured by Cub
 
 ## Prerequisites
 
-All the libraries/dependencies necessary to run the notebooks are listed in the [requirements.txt](https://github.com/Hack4Dev/CubeSat_ImageClassify/blob/main/requirements.txt) file.
+All the necessary libraries and dependencies to run the notebooks are listed in the [requirements.txt](https://github.com/Hack4Dev/CubeSat_ImageClassify/blob/main/requirements.txt) file.
 
 ### Installation
 
+#### On Your Local Machine
 
-#### ON your machine
+To install a single package, use the following command:
+
+```bash
+pip install --user <package>
+```
+
+To install all required packages, run:
 ```bash
 pip install -r requirements.txt
 ```
 
-#### On [ilifu]()
+On the Ilifu Cloud Computing System:
 
-As a participant, you can install Python libraries as a local install using the following command:
-
+If you are participating through our cloud computing system [ilifu](https://www.ilifu.ac.za/), you can install Python libraries locally using the following command:
 ```bash
-$ /shared/venv/bin/python -m pip install --user <package>
+/shared/venv/bin/python -m pip install --user <package>
 ```
 
 ## Would you like to clone this repository? Feel free!
