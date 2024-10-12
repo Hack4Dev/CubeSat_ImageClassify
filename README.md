@@ -9,7 +9,6 @@ Welcome to the CubeSat Image Classify Hackathon project! This project includes t
 - *Notebook 3*: Classification using a machine learning model
 - *Notebook 4*: Classification using a deep learning model
 
----
 
 ## Data
 
@@ -30,7 +29,6 @@ Develop a machine learning model that accurately classifies data captured by Cub
 ## Prerequisites
 
 All the libraries/dependencies necessary to run the notebooks are listed in the [requirements.txt](https://github.com/Hack4Dev/CubeSat_ImageClassify/blob/main/requirements.txt) file.
----
 
 ### Installation
 
@@ -48,7 +46,7 @@ As a participant, you can install Python libraries as a local install using the 
 $ /shared/venv/bin/python -m pip install --user <package>
 ```
 
-### Would you like to clone this repository? Feel free!
+## Would you like to clone this repository? Feel free!
 
 ```bash
 git clone https://github.com/Hack4Dev/CubeSat_ImageClassify.git
@@ -56,7 +54,7 @@ git clone https://github.com/Hack4Dev/CubeSat_ImageClassify.git
 
 Then make sure you have the right Python libraries for the notebooks. 
 
-### New to Github?
+## New to Github?
 
 The easiest way to get all of the lecture and tutorial material is to clone this repository. To do this you need git installed on your laptop. If you're working on Linux you can install git using apt-get (you might need to use sudo):
 
@@ -77,10 +75,10 @@ cd CubeSat_ImageClassify/
 git pull
 ```
 
-### Original research work:
+## Original research work:
 
 Chatar, Keenan AA, et al. "Data downlink prioritization using image classification on-board a 6U CubeSat." Sensors, Systems, and Next-Generation Satellites XXVII. Vol. 12729. SPIE, 2023. [link:](https://arxiv.org/pdf/2408.1486).
 
 
-### Data used (coming soon)
+## Data used (coming soon)
 
