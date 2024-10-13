@@ -12,7 +12,7 @@ Welcome to the CubeSat Image Classify Hackathon project! This project includes t
 
 ## Data
 
-The data used in this hackathon can be found at [link: coming soon](). It contains approximately 20,000 images, each with a size of 3x512x512. The images are classified into the following categories:
+The data used in this hackathon can be found at [link: coming soon]. It contains approximately 16,000 images, each with a size of 3x512x512. The images are classified into the following categories:
 
 0. Blurry
 1. Corrupt
@@ -52,7 +52,7 @@ If you are participating through our cloud computing system [ilifu](https://www.
 /shared/venv/bin/python -m pip install --user <package>
 ```
 
-## Would you like to clone this repository? Feel free!
+### Would you like to clone this repository? Feel free!
 
 ```bash
 git clone https://github.com/Hack4Dev/CubeSat_ImageClassify.git
@@ -60,7 +60,7 @@ git clone https://github.com/Hack4Dev/CubeSat_ImageClassify.git
 
 Then make sure you have the right Python libraries for the notebooks. 
 
-## New to Github?
+### New to Github?
 
 The easiest way to get all of the lecture and tutorial material is to clone this repository. To do this you need git installed on your laptop. If you're working on Linux you can install git using apt-get (you might need to use sudo):
 
@@ -81,10 +81,10 @@ cd CubeSat_ImageClassify/
 git pull
 ```
 
-## Original research work:
+### Original research work:
 
 Chatar, Keenan AA, et al. "Data downlink prioritization using image classification on-board a 6U CubeSat." Sensors, Systems, and Next-Generation Satellites XXVII. Vol. 12729. SPIE, 2023. [link:](https://arxiv.org/pdf/2408.1486).
 
 
-## Data used (coming soon)
+### Data used (coming soon)
 
