@@ -13,7 +13,7 @@ Welcome to the CubeSat Image Classify Hackathon challenge! This challenge includ
 
 ## Data
 
-The data used in this hackathon can be found at [link: ](). It contains approximately 16,000 images, each with a size of 3x512x512. The images are classified into the following categories:
+The data used in this hackathon can be found at [link ](https://doi.org/10.5281/zenodo.14598875). It contains approximately 16,000 images, each with a size of 3x512x512. The images are classified into the following categories:
 
 0. Blurry
 1. Corrupt
@@ -81,8 +81,8 @@ git pull
 Chatar, Keenan AA, et al. "Data downlink prioritization using image classification on-board a 6U CubeSat." Sensors, Systems, and Next-Generation Satellites XXVII. Vol. 12729. SPIE, 2023. [link:](https://arxiv.org/pdf/2408.14865).
 
 
-### Data used (coming soon)
+### Data used
 
-- For the `original` dataset, please visit [link:](https://zenodo.org/records/13147787)
-- If you prefer to access the tutorial more quickly, you can use this [link:](https://doi.org/10.5281/zenodo.14598875); however, please note that the download time will be longer.
+- For the `original` dataset, please visit [link](https://zenodo.org/records/13147787)
+- If you prefer to access the tutorial more quickly, you can use this [link](https://doi.org/10.5281/zenodo.14598875); however, please note that the download time will be longer.
   
