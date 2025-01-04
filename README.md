@@ -2,17 +2,18 @@
 
 ## Description
 
-Welcome to the CubeSat Image Classify Hackathon project! This project includes the following Notebooks:
+Welcome to the CubeSat Image Classify Hackathon challenge! This challenge includes the following Notebooks:
 
 - *Notebook 1*: Introduction to the problem and an overview of the hackathon 
 - *Notebook 2*: Reading and analyzing the astronomical data
 - *Notebook 3*: Classification using a machine learning model
 - *Notebook 4*: Classification using a deep learning model
+- *Notebook 5*: Evaluation
 
 
 ## Data
 
-The data used in this hackathon can be found at [link: coming soon]. It contains approximately 16,000 images, each with a size of 3x512x512. The images are classified into the following categories:
+The data used in this hackathon can be found at [link: ](). It contains approximately 16,000 images, each with a size of 3x512x512. The images are classified into the following categories:
 
 0. Blurry
 1. Corrupt
@@ -45,12 +46,6 @@ To install all required packages, run:
 pip install -r requirements.txt
 ```
 
-On the Ilifu Cloud Computing System:
-
-If you are participating through our cloud computing system [ilifu](https://www.ilifu.ac.za/), you can install Python libraries locally using the following command:
-```bash
-/shared/venv/bin/python -m pip install --user <package>
-```
 
 ### Would you like to clone this repository? Feel free!
 
@@ -83,8 +78,11 @@ git pull
 
 ### Original research work:
 
-Chatar, Keenan AA, et al. "Data downlink prioritization using image classification on-board a 6U CubeSat." Sensors, Systems, and Next-Generation Satellites XXVII. Vol. 12729. SPIE, 2023. [link:](https://arxiv.org/pdf/2408.1486).
+Chatar, Keenan AA, et al. "Data downlink prioritization using image classification on-board a 6U CubeSat." Sensors, Systems, and Next-Generation Satellites XXVII. Vol. 12729. SPIE, 2023. [link:](https://arxiv.org/pdf/2408.14865).
 
 
 ### Data used (coming soon)
 
+- For the `original` dataset, please visit [link:](https://zenodo.org/records/13147787)
+- If you prefer to access the tutorial more quickly, you can use this [link:](https://doi.org/10.5281/zenodo.14598875); however, please note that the download time will be longer.
+  
