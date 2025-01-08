@@ -78,7 +78,7 @@ git pull
 
 ## Original research work:
 
-Chatar, Keenan AA, et al. "Data downlink prioritization using image classification on-board a 6U CubeSat." Sensors, Systems, and Next-Generation Satellites XXVII. Vol. 12729. SPIE, 2023. [link:](https://arxiv.org/pdf/2408.14865).
+Keenan A. A. Chatar, Ezra Fielding, Kei Sano, and Kentaro Kitamura "Data downlink prioritization using image classification on-board a 6U CubeSat", Proc. SPIE 12729, Sensors, Systems, and Next-Generation Satellites XXVII, 127290K (19 October 2023); [https://doi.org/10.1117/12.2684047](https://doi.org/10.1117/12.2684047).
 
 
 ## Data used

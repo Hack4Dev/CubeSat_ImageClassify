@@ -59,7 +59,7 @@ def print_evaluation_results(metrics, class_names):
     print(f"Evaluation Time:       {metrics['evaluation_time']:.2f} seconds (The time it took for the pipeline to preprocess data and make predictions.)")
     print(f"Peak Memory Usage:     {metrics['peak_memory_usage']:.2f} MB (The maximum memory used during evaluation.)")
     print(f"Average CPU Usage:     {metrics['average_cpu_usage']:.2f} % (The % shows how much of one CPU core was used during the evaluation.)")
-    print(f"Pipeline Size:         {metrics['pipeline_size']:.2f} MB (The size of the model and preprocessing function.)")
+    print(f"Algorithm code size:         {metrics['algorithm_code_size']:.2f} MB (The size of the trained model and preprocessing function.)")
     print(f"Accuracy:              {metrics['accuracy']:.3f} (The percentage of correctly classified samples.)")
     print(f"F1 Score:              {metrics['f1_score']:.3f} (A balance of precision and recall, useful for imbalanced datasets.)")
 
@@ -87,8 +87,8 @@ def compute_metrics(y_test, y_pred, class_names):
 
     return metrics
 
-# Function to calculate pipeline size
-def calculate_pipeline_size(model, preprocessing_fn):
+# Function to calculate algorithm_code_size
+def calculate_algorithmCode_size(model, preprocessing_fn):
     model_size = len(pickle.dumps(model))
     preprocessing_size = len(pickle.dumps(preprocessing_fn))
     return (model_size + preprocessing_size) / (1024 * 1024)  # In MB
@@ -146,7 +146,7 @@ def evaluate_pipeline(model, X_test_raw, y_test, preprocessing_fn):
     metrics['peak_memory_usage'] = max(mem_usage)  # In MB
     metrics['average_cpu_usage'] = np.mean(cpu_usage)  # In percentage
     metrics.update(compute_metrics(y_test, y_pred, class_names))  # Add accuracy, F1 score, etc.
-    metrics['pipeline_size'] = calculate_pipeline_size(model, preprocessing_fn)  # In MB
+    metrics['algorithm_code_size'] = calculate_algorithmCode_size(model, preprocessing_fn)  # In MB
 
     print_evaluation_results(metrics, class_names)
     
