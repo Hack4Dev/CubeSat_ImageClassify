@@ -109,9 +109,9 @@ def evaluate_pipeline(model, X_test_raw, y_test, preprocessing_fn):
     """
     class_names = ["Blurry", "Corrupt", "Missing_Data", "Noisy", "Priority"]
     
-    # Set CPU affinity to core 0 (the first core)
+    # Set CPU affinity to core 4 (the fourth core)
     p = psutil.Process(os.getpid())
-    p.cpu_affinity([0])
+    p.cpu_affinity([4])
 
     # Lists to store memory and CPU usage data
     mem_usage = []
