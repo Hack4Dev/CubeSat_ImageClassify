@@ -27,6 +27,10 @@ The data used in this hackathon can be found at [link ](https://doi.org/10.5281/
 Develop a machine learning model that accurately classifies data captured by CubeSats. The goal is to prioritize which images are most valuable for transmission back to Earth, given the limited onboard resources and slow data downlink speeds. Your task is to create a lightweight model that improves the efficiency and/or classification accuracy of the existing solution in this [paper](https://arxiv.org/pdf/2408.14865).
 
 
+## Video
+
+In addition to reviewing the provided notebooks, we recommend watching this video [link](https://www.youtube.com/watch?v=3N9-eGfQiS0). In the video, Prof. Thron discusses the challenge in detail and explores possible approaches to achieving an optimal solution.
+
 ## Prerequisites
 
 All the necessary libraries and dependencies to run the notebooks are listed in the [requirements.txt](https://github.com/Hack4Dev/CubeSat_ImageClassify/blob/main/requirements.txt) file.
