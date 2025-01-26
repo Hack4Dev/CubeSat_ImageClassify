@@ -29,7 +29,9 @@ Develop a machine learning model that accurately classifies data captured by Cub
 
 ## Video
 
-In addition to reviewing the provided notebooks, we recommend watching this video [link](https://www.youtube.com/watch?v=3N9-eGfQiS0). In the video, Prof. Thron discusses the challenge in detail and explores possible approaches to achieving an optimal solution.
+- In addition to reviewing the provided notebooks, we recommend watching this video [link](https://www.youtube.com/watch?v=3N9-eGfQiS0). In the video, Prof. Thron discusses the challenge in detail and explores possible approaches to achieving an optimal solution.
+  
+- We also recommend watching this [video](https://www.youtube.com/watch?v=CPDlVR684Vo), if you plan to use [ilifu](https://www.ilifu.ac.za/), our cloud computing system, during the hackathons.
 
 ## Prerequisites
 
